@@ -134,5 +134,4 @@ struct SerializedBinaryFuseFilter
     // Array of uint8_t, uint16_t, or uint32_t depending on filter type
     opaque fingerprints<>;
 };
-
 }
