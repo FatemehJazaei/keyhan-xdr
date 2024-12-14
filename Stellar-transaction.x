@@ -551,8 +551,8 @@ case SOROBAN_AUTHORIZED_FUNCTION_TYPE_CREATE_CONTRACT_HOST_FN:
 // This variant of auth payload for creating new contract instances
 // is only accepted in and after protocol 22. It allows authorizing the
 // contract constructor arguments.
-case SOROBAN_AUTHORIZED_FUNCTION_TYPE_CREATE_CONTRACT_HOST_FN:
-    CreateContractArgs createContractHostFn;
+case SOROBAN_AUTHORIZED_FUNCTION_TYPE_CREATE_CONTRACT_V2_HOST_FN:
+    CreateContractArgsV2 createContractV2HostFn;
 };
 
 struct SorobanAuthorizedInvocation
