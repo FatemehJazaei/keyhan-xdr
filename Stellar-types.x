@@ -77,7 +77,7 @@ case SIGNER_KEY_TYPE_DILITHIUM2_SIGNED_PAYLOAD:
 };
 
 // variable size as the size depends on the signature scheme used
-typedef opaque Signature<64>;
+typedef opaque Signature<2420>;
 
 typedef opaque SignatureHint[4];
 
